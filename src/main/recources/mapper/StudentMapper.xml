@@ -18,7 +18,12 @@
     </resultMap>
     <!--查询全部-->
     <select id="findAll" resultMap="DemoResultMap">
-        SELECT * FROM student limit #{start,jdbcType=DECIMAL},#{end,jdbcType=DECIMAL}
+        SELECT * FROM student
+        where sid = '0'
+        <if test="sname != null and sname != ''">
+            and sname = #{sname,jdbcType=VARCHAR}
+        </if>
+         limit #{start,jdbcType=DECIMAL},#{end,jdbcType=DECIMAL}
     </select>
 
     <insert id="add" parameterType="Student">
