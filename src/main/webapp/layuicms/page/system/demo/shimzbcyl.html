@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<<head>
+    <meta charset="utf-8">
+    <title>预览功能</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../../../lib/layui/css/layui.css" media="all"/>
+    <style type="text/css">
+        .coll{
+            width: 100%;
+            height: 1521px;
+            margin: 0 auto;
+        }
+        .tupian{
+            width: 170px;
+            margin: 0 auto;
+        }
+        .bigtitle{
+            font-size: 30px;
+            width: 190px;
+            margin: 0 auto;
+        }
+        .neirong{
+            width: 809px;
+            word-wrap: break-word;
+            word-break: break-all;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        .zibiaotiquyu{
+            width: 806px;
+            height: 100%;
+            margin: 0 auto;
+            background-color: #E9E7E7;
+            margin-top: 42px;
+        }
+        .subtitle img{
+            float: left;
+        }
+
+        .subtitle{
+            width: 130px;
+            margin: 0 auto;
+        }
+        .zibiaotifenquyu{
+            width: 800px;
+            padding-top: 16px;
+            margin: 20px;
+            float: left;
+        }
+        .hr{
+
+            background-color:seashell;
+            width: 80%;
+            height: 2px;
+            margin: 0 auto;
+        }
+        .renmingquyu{
+            width: 800px;
+            float: left;
+        }
+        .timuquyu{
+            height: 50px;
+            padding-top: 20px;
+            margin-left: 80px;
+        }
+        .renming{
+            padding-left: 50px;
+        }
+        .shizi{
+            width: 26px;
+            height: 26px;
+            background-color: #FBFBFB;
+            float: left;
+        }
+
+        .xuanxian {
+            position: relative;
+            line-height: 30px;
+            float: left;
+        }
+
+        .checkbox_{
+            display: none;
+        }
+        div {
+            position: relative;
+            line-height: 30px;
+
+        }
+
+
+        input[type="radio"] {
+            width: 20px;
+            height: 20px;
+            opacity: 0;
+        }
+
+
+        .radio_+label {
+            position: absolute;
+            left: 5px;
+            top: 3px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 1px solid #999;
+
+        }
+
+        /*设置选中的input的样式*/
+        /* + 是兄弟选择器,获取选中后的label元素*/
+        input:checked+label {
+            background-color: #007DDB;
+            border: 1px solid #007DDB;
+        }
+        /*添加的加号与label进行拼接(一个矩形边框去掉上和左的边框),再旋转45度*/
+        input:checked+label::after {
+            position: absolute;
+            content: "";
+            width: 5px;
+            height: 10px;
+            top: 3px;
+            left: 6px;
+            border: 2px solid #fff;
+            border-top: none;
+            border-left: none;
+            transform: rotate(45deg);
+        }
+        .checkbox_+label {
+
+            position: absolute;
+            left: 5px;
+            top: 3px;
+            width: 20px;
+            height: 20px;
+            border-radius: 0px;
+            border: 1px solid #999;
+        }
+        .tijiao{
+            height: 50px;
+            width: 800px;
+            text-align: center;
+            /*margin-top: 70px;*/
+
+        }
+        .zbz{
+            height: 40px;
+        }
+        .xuanxian{
+            width: 20%;
+
+        }
+        .mz{
+            margin-left: 30px;
+            width: 70px;
+
+            border: none;
+            background-color: #E9E7E7;
+        }
+        .dbz{
+            border: none;
+        }
+        .tpsm{
+            border: none;
+            height: 50px;
+            width: 800px;
+            text-align: center;
+        }
+        .zbt{
+            border: none;
+            background-color: #E9E7E7;
+        }
+        .rm{
+            border: none;
+            background-color: #E9E7E7;
+        }
+        .dx{
+            width: 50px;
+            border: none;
+            background-color: #E9E7E7;
+        }
+        .zibiaotifenquyu2{
+            width: 40%;
+            display: flex;
+        }
+        .tup{
+            float: left;
+        }
+        .tup img{
+            width: 41px;
+            height: 41px;
+        }
+        .sub{
+            font-size: 20px;
+            float: left;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+<form class="layui-form" style="width:80%;">
+    <div class="coll">
+            <div class="tupian"><img width="169px" height="172px" src="http://pic.51yuansu.com/pic2/cover/00/37/89/581224f216e26_610.jpg" alt=""></div>
+            <div class="bigtitle"><input type="text" class="dbz" name="bigTitle"></div>
+            <div class="neirong">
+                    <span><input type="text" class="tpsm"  name="explain"></span>
+            </div>
+
+        <div class="zibiaotiquyu">
+            <div id="zbt_coll">
+<!--            <div class="zibiaotifenquyu">-->
+<!--                <div class="hr"></div>-->
+<!--                <div class="subtitle">-->
+<!--                    <div><img src="../../../common/images/img6.jpg" alt="" style="width: 41px; height: 41px"></div>-->
+<!--                    <div class="sub">-->
+<!--                        <input class="zbt" type="text"name="subtitleContent" value="子标题1">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="renmingColl">-->
+<!--&lt;!&ndash;                    <div class="renmingquyu">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="renming">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="shizi" style="padding: 0px;border-radius:50%" >&ndash;&gt;-->
+<!--&lt;!&ndash;                            <p style="margin: 0px;padding-left: 6px">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <font color="red" >1</font>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </p>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="text" class="rm" name="uname" value="叶大哥">&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div id="bz_coll">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="timuquyu">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="timu">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span>01</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <span>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="text" name="standardName" class="rm" value="兴趣" >&ndash;&gt;-->
+<!--&lt;!&ndash;                        </span>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="zbz">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="xuanxian">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input id="item0" type="radio" name="item4" value="0"  class="radio_">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label for="item0"></label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <input type="text" class="mz" name="substandardName" value="帅哥sssssssss">&ndash;&gt;-->
+<!--&lt;!&ndash;                            </span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="xuanxian">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input id="item1" type="radio" name="item4" value="学生" class="radio_">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label for="item1"></label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <input type="text" class="mz" name="substandardName" value="帅哥sssssssssssssss">&ndash;&gt;-->
+<!--&lt;!&ndash;                            </span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="xuanxian">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input id="item2" type="radio" name="item4"  class="radio_">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label for="item2"></label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <input type="text" class="mz" name="substandardName" value="帅哥sssssssss">&ndash;&gt;-->
+<!--&lt;!&ndash;                            </span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="timuquyu">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="timu">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span>02</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span>颜值</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="zbz">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="xuanxian">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input id="item3" type="radio" name="item5" value="学生" class="radio_">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label for="item3"></label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <input type="text" class="mz" name="substandardName" value="帅哥sssssssss">&ndash;&gt;-->
+<!--&lt;!&ndash;                            </span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="xuanxian">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input id="item4" type="radio" name="item5" value="学生" class="radio_">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label for="item4"></label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <input type="text" class="mz" name="substandardName" value="帅哥sssssssss">&ndash;&gt;-->
+<!--&lt;!&ndash;                            </span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                        <div class="xuanxian">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input id="item5" type="radio" name="item5" value="教师" class="radio_">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label for="item5"></label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <input type="text" class="mz" name="substandardName" value="帅哥sssssssss">&ndash;&gt;-->
+<!--&lt;!&ndash;                            </span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="timuquyu">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="timu">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span>03        </span>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <span>颜值</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="zbz">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="xuanxian">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="checkbox" id="checkbox1" class="checkbox_"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label for="checkbox1"></label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="text" class="dx" name="substandardName" value="帅哥sssssssss">&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="xuanxian">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="checkbox" id="checkbox22" class="checkbox_"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label for="checkbox22"></label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="text" class="dx" name="substandardName" value="帅哥sssssssss">&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="xuanxian">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="checkbox" id="checkbox2" class="checkbox_"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label for="checkbox2"></label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="text" class="dx" name="substandardName" value="帅哥sssssssss">&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="xuanxian">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="checkbox" id="checkbox3" class="checkbox_"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label for="checkbox3"></label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="text" class="dx" name="substandardName" value="帅哥sssssssss">&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="xuanxian">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="checkbox" id="checkbox4" class="checkbox_"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <label for="checkbox4"></label>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <input type="text" class="dx" name="substandardName" value="帅哥sssssssss">&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+<!--                </div>-->
+
+            </div>
+            <div class="tijiao">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <button style="width: 200px" class="layui-btn layui-btn-normal" lay-submit="" disabled="true" >立即提交</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</form>
+    <!--一般情况下，一个业务页面引入一个layui.js,config.js和业务js这三个js就够了-->
+    <script type="text/javascript" src="../../../lib/layui/layui.js"></script>
+    <script type="text/javascript" src="../../../common/js/config.js"></script>
+    <script type="text/javascript" src="shimzbcyl.js"></script>
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>使用功能</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../../../lib/layui/css/layui.css" media="all"/>
+    <style type="text/css">
+        .layui-form-item .layui-inline {
+            width: 33.333%;
+            float: left;
+            margin-right: 0;
+        }
+
+        @media (max-width: 1240px) {
+            .layui-form-item .layui-inline {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body class="childrenBody">
+
+<form class="layui-form" style="width:80%;">
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="" lay-filter="addtem">发布</button>
+            <button class="layui-btn" lay-submit="" lay-filter="cuntem" >存为模板</button>
+            <button class="layui-btn layui-btn-primary" lay-submit="" lay-filter="shiyulang" >预览</button>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">大标题</label>
+        <div id="Big_bt"  class="layui-input-block">
+            <input type="text" class="layui-input" name="bigTitle" lay-verify="required" placeholder="请输入大标题">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">投票说明</label>
+        <div id="exp" class="layui-input-block">
+            <input type="text" class="layui-input"  name="explain" lay-verify="required" placeholder="请输入投票说明">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">投票人数</label>
+        <div id="num" class="layui-input-block">
+            <input type="text" class="layui-input" name="number" placeholder="请输入人数">
+        </div>
+    </div>
+    <div id="zbt_coll">
+
+        </div>
+    </div>
+    <button type="button" style="display:block;margin:0 auto" class="layui-btn aa" onclick="newBT($(this))">新建标题</button>
+
+</form>
+
+<!--一般情况下，一个业务页面引入一个layui.js,config.js和业务js这三个js就够了-->
+<script type="text/javascript" src="../../../lib/layui/layui.js"></script>
+<script type="text/javascript" src="../../../common/js/config.js"></script>
+<script type="text/javascript" src="shiyon.js"></script>
+<script type="text/javascript" src="../../../lib/jquery-2.2.4/jquery.js"></script>
+<script type="text/javascript">
+    // function Submit () {
+    //     var a = $("#zbt_coll").children();
+    //     //大标题
+    //     var b = $($("#Big_bt").children("input")[0]).val();
+    //     //投票说明
+    //     var c = $($("#exp").children("input")[0]).val();
+    //     //投票人数
+    //     var d = $($("#num").children("input")[0]).val();
+    //     //var e = $("#bz_collection").children();
+    //     //var f = $("#zbz").children();
+    //     //定义子标题数组
+    //     var zbt_coll = [];
+    //
+    //     for (var i = 0;i<a.length;i++){
+    //         //子标题
+    //             var zbt = $($($($(a[i]).children(".layui-form-item")[0]).children(".layui-input-block")[0]).children("input")[0]).val();
+    //             var e = $($(a[i]).children("#bz_collection")).children();
+    //             var bz_coll = [];//标准数组
+    //         for(var j = 0;j<e.length;j++){
+    //                  //标准
+    //                 var bz = $($($($(e[j]).children(".layui-form-item")[0]).children(".layui-input-block")[0]).children("input")[0]).val();
+    //                 //选项
+    //                 var isOnly = $($($($(e[j]).children(".layui-form-item")[1]).children(".layui-input-block")[0]).children("input")[0]).is(":checked");
+    //                 //子标准
+    //                 var f = $(e[j]).children("#zbz").children();
+    //                 var zbz_coll = [];//子标准数组
+    //             for(var k = 0; k<f.length; k++){
+    //                     var zbz = $($($(f[k]).children(".layui-input-block")[0]).children("input")[0]).val();
+    //                          zbz_coll.push(zbz);//获取子标准数据推入子标准数组中，由内到外
+    //             }
+    //                     //获取标准底下数据放入bz_coll下
+    //                     var bz_obj = {bz:bz,isOnly:isOnly,zbz_coll:zbz_coll};//对象
+    //                     bz_coll.push(bz_obj);
+    //         }
+    //                     //获取子标题底下数据放入zbt_coll下
+    //                     var zbt_obj = {zbt:zbt,bz_coll:bz_coll};
+    //                     zbt_coll.push(zbt_obj);
+    //     }
+    //                         var data = {dbt:b,tpsm:c,tprs:d,zbt_coll:zbt_coll};
+    //                         alert(JSON.stringify(data));//转成json对象
+    //
+    //
+    //
+    //
+    // }
+    var index1 = 1;
+    // var maxfile=1;
+    // var items = [1];//表示每一题最大选项
+    // var flag = true;
+    // var i = 1;func
+    function bz(b) {
+
+        var id1 = $($(b.prev()).children()).length+1;
+       index1++;
+        $(b.prev()).append(
+            "<div id=\"bz\">"+
+            "<div class=\"layui-form-item \">\n" +
+            "        <label class=\"layui-form-label\">标准"+id1+"</label>\n" +
+            "        <div class=\"layui-input-block\">\n" +
+            "            <input type=\"text\" class=\"layui-input\" name=\"standardName\" lay-verify=\"required\" placeholder=\"请输入角色名称\">\n" +
+            "        </div>\n" +
+            "    </div>\n" +
+            '<div class="layui-form-item">'+
+            "<div class=\"layui-input-block\">\n"+
+            '<label class="layui-form-label">选项规则</label>\n'+
+            '<input type="radio" class="layui-input" name="id'+ index1+'"'+ 'value="1" title="单选" checked="checked">' +
+            '<div class=\"layui-unselect layui-form-radio\"><i class=\"layui-anim layui-icon\"></i><span>单选</span></div>\n'+
+            '<input type="radio" class="layui-input" name="id'+index1+ '"'+ ' value="2" title="多选">' +
+            '<div class=\"layui-unselect layui-form-radio layui-form-radioed\"><i class=\"layui-anim layui-icon\"></i><span>多选</span></div>\n'+
+            "    </div>\n" +
+            "   </div>"+
+            "    <div id=\"zbz\">\n" +
+            "        <div class=\"layui-form-item \">\n" +
+            "            <label class=\"layui-form-label\">子标准1</label>\n" +
+            "            <div class=\"layui-input-block\">\n" +
+            "                <input type=\"text\" class=\"layui-input\" name=\"substandardName\" lay-verify=\"required\" placeholder=\"请输入角色名称\">\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        </div>\n" +
+            "        <button type=\"button\" class=\"layui-btn layui-btn-primary\" onclick=\"tianjia($(this))\">添加子标准</button>\n" +
+            "</div>"
+        );
+        layui.form.render("radio");
+    };
+    // flag=false;
+    // items[items.length] = 1;
+
+    // alert(index2);
+    // if(flag==true){
+    //     bz=1;
+    //     bz=bz+i;
+    //     i++;
+    // }else{
+    //     var id = b.eq(0).attr('id');
+    //     var index = Number.parseInt(id.substring(4)) ;
+    //     console.log(index)
+    //     var bz = items[bz];
+    //     bz++;
+    //     items[index]=bz;
+
+
+    //     b.before(
+    //
+    // }
+
+
+    function tianjia(t){
+        var id =  $($(t.prev()).children()).length+1;//prev() 获得匹配元素集合中每个元素紧邻的前一个同胞元素，通过选择器进行筛选是可选的。
+        // if(flag==true){
+        //     maxfile=1;
+        //     maxfile=maxfile+i;
+        //     i++;
+        // }else{
+        //     var id = t.eq(0).attr('id');
+        //     var index = Number.parseInt(id.substring(4)) ;
+        //     console.log(index)
+        //     var maxfile = items[index];
+        //     maxfile++;
+        //     items[index]=maxfile;
+
+
+        $(t.prev()).append(
+
+
+            "<div class=\"layui-form-item\">"+
+            "<label class=\"layui-form-label\">子标准"+id+"</label>"+
+            "<div class=\"layui-input-block\">"+
+            "<input type=\"text\" class=\"layui-input\" name=\"substandardName\" lay-verify=\"required\" placeholder=\"请输入角色名称\">"+
+            "</div>"+
+            "</div>"
+
+
+        );
+    }
+    function newBT(f) {
+        // flag=false;
+        // items[items.length] = 1;
+        index1++;//获取下标对选项框刷新
+        // alert(index1);
+        var id2 =  $($(f.prev()).children()).length+1;//prev() 方法返回被选元素的前一个同级元素。children() 方法返回被选元素的所有直接子元素。
+        $(f.prev()).append(
+            "<div id=\"zbt\">"+
+            '<div class="layui-form-item">'+
+            "<label class=\"layui-form-label\">子标题"+id2+"</label>"+
+            "<div class=\"layui-input-block\">"+
+            "<input type=\"text\" class=\"layui-input\" name=\"subtitleContent\" lay-verify=\"required\" placeholder=\"请输入角色名称\">"+
+            "</div>"+
+            "</div>"+
+            '<div id="bz_collection">'+
+            '<div id="bz">'+
+            "<div class=\"layui-form-item\">" +
+            "<label class=\"layui-form-label\">标准1</label>\n"+
+            "<div class=\"layui-input-block\">\n"+
+            "<input type=\"text\" class=\"layui-input\" name=\"standardName\" lay-verify=\"required\" placeholder=\"请输入角色名称\">"+
+            "</div>\n"+
+            "</div>\n"+
+            '<div class="layui-form-item">'+
+            "<div class=\"layui-input-block\">\n"+
+            '<label class="layui-form-label">选项规则</label>\n'+
+            '<input type="radio" class="layui-input" name="id'+ index1+'"'+ 'value="1" title="单选" checked="checked">' +
+            '<div class=\"layui-unselect layui-form-radio\"><i class=\"layui-anim layui-icon\"></i><span>单选</span></div>\n'+
+            '<input type="radio" class="layui-input" name="id'+index1+ '"'+ ' value="2" title="多选">' +
+            '<div class=\"layui-unselect layui-form-radio layui-form-radioed\"><i class=\"layui-anim layui-icon\"></i><span>多选</span></div>\n'+
+            "</div>"+
+            "</div>>"+
+            "<div id=\"zbz\">"+
+            "<div class=\"layui-form-item\">"+
+            "<label class=\"layui-form-label\">子标准1</label>"+
+            "<div class=\"layui-input-block\">"+
+            "<input type=\"text\" class=\"layui-input\" name=\"substandardName\" lay-verify=\"required\" placeholder=\"请输入角色名称\">"+
+            "</div>"+
+            "</div>"+
+            "</div>"+
+            "<button type=\"button\" class=\"layui-btn layui-btn-primary\" onclick=\"tianjia($(this))\">添加子标准</button></br>"+
+            '</div>'+
+            '</div>'+
+            "<button type=\"button\" class=\"layui-btn layui-btn-normal\" onclick=\"bz($(this))\">新增标准</button>"+
+            '<div id="beice">'+
+            '<div class="layui-form-item">'+
+            '<label class="layui-form-label">被评测人员</label>'+
+            '<div class="layui-input-block">'+
+            '<input type="text" class="layui-input uid" id="uidData'+id2+'" name="uname" onclick="openAdduser($(this));" placeholder="选择添加">' +
+            '<input type="hidden" id="uidData'+id2+ 'ex"name="uid"/>' +
+            '</div>'+
+            '</div>'+
+            '</div>'+
+            '</div>');
+        layui.form.render("radio");
+
+    };
+    function  openAdduser(target) {
+        console.log(target.next().attr('id'));
+        layer.open({
+            type: 2,
+            title:"添加被测人员",
+            id:"link",
+            area: ['75%', '80%'],
+            fixed: false, //不固定
+            maxmin: true,
+            content: 'addUnameshiyon.html?uidname='+target.attr('id')
+
+        })
+    }
+
+
+</script>
+</body>
+</html>
