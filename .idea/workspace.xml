@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53d82f60-2ed9-4a8c-86b3-231e9f77964e" name="Default Changelist" comment="1.yzj">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/beans/constant/OperType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/beans/error/IErrCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/beans/modelview/ModelView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/beans/response/AbstractResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/beans/response/IResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/beans/response/PageResultBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/beans/response/ResultBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/controller/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/mapper/StudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/util/Layui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/com/jc/util/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/dispatch-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/jsp/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/jsp/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/jsp/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/c3p0-0.9.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/commons-lang3-3.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/jackson-core-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/jackson-databind-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/json-lib-2.2.3-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/lombok-1.12.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/pagehelper-5.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/slf4j-api-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/spring-test-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/.idea/layuicms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/images/alipay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/images/face.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/images/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/images/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/images/img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/images/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/images/wxpay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/js/ajaxExtention.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/js/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/js/bodyTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/js/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/js/leftNav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/js/tool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/common/picture/放大镜调查报告.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/dashang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/filedownload/filedownload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/filedownload/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/jquery-2.2.4/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/jquery-2.2.4/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/jquery-2.2.4/测试用.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/layui/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/lib/sha1/sha1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/401.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/Tem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/Tem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/addUnameshiyon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/addUnametem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/addtem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/addtem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/mzbc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/mzbc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/mzbcyl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/mzbcyl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/shiyon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/shiyon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/zhanghao1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/Tem/zhanghao1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/addRole.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/addRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/addUname.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/adddemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/adddemo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/allRoles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/allRoles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/chakan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/chakan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/editdemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/editdemo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/ercichakan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/ercichakan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/shimzbcyl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/shimzbcyl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/tongji.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/tongji.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/zhanghao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/demo/zhanghao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/sysUser/addUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/sysUser/addUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/sysUser/allUsers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/sysUser/allUsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/sysUser/editUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/sysUser/editUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/accountTem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/accountTem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/addTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/addTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/addWjdc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/addWjdc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/editTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/editTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/history.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/previewAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/previewAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/previewLook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/previewLook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/previewTem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/previewTem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/total.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Stone/layuicms/page/system/wjdc/total.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/beans/constant/OperType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/beans/error/IErrCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/beans/modelview/ModelView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/beans/response/AbstractResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/beans/response/IResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/beans/response/PageResultBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/beans/response/ResultBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/controller/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/mapper/StudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/util/Layui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jc/util/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dispatch-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recources/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/recources/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/allUsers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/allUsers.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ssm" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/recources/mapper/StudentMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/addUser.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1527">
+              <caret line="97" column="7" lean-forward="true" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/dashang.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/favicon.ico">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/addUser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>viewResolver</find>
+      <find>usersAdd_btn</find>
+      <find>404.html</find>
+      <find>menuList.</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ssm1" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/jc/service/impl/c.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jc/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/recource/mapper/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/recource/log4j.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/src/main/recource/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/recource/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/recources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/recources/mapper/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuicms/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/recources/dispatch-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jc/util/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jc/controller/JSONArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jc/util/Layui.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jc/beans/response/PageResultBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jc/beans/response/ResultBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jc/mapper/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuicms/common/js/api.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jc/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jc/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/editUser.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/allUsers.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/editUser.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuicms/common/js/ajaxExtention.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jc/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuicms/common/js/config.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuicms/index.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/addUser.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/addUser.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuicms/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/allUsers.html" />
+        <option value="$PROJECT_DIR$/src/main/recources/mapper/StudentMapper.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Stone Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Stone Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-36" />
+    <option name="y" value="209" />
+    <option name="width" value="1474" />
+    <option name="height" value="844" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="recources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="recources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="layuicms" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/layuicms" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yzj\IdeaProjects\ssm\src\main\webapp" />
+      <recent name="C:\Users\yzj\IdeaProjects\ssm\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\yzj\IdeaProjects\ssm\src\main\recource" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yzj\IdeaProjects\ssm\src\main\webapp\layuicms" />
+      <recent name="C:\Users\yzj\IdeaProjects\ssm\src\main\java\com\jc" />
+      <recent name="C:\Users\yzj\IdeaProjects\ssm\src\main\webapp" />
+      <recent name="C:\Users\yzj\IdeaProjects\ssm\src\main\recource" />
+      <recent name="C:\Users\yzj\IdeaProjects\ssm\src\main\recource\mapper" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jc.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="dd" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.29" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ssm_war_exploded/" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ssm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm" />
+        <option name="JNDI_PORT" value="1090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50936" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53d82f60-2ed9-4a8c-86b3-231e9f77964e" name="Default Changelist" comment="" />
+      <created>1562485834756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562485834756</updated>
+      <workItem from="1562485854306" duration="2931000" />
+      <workItem from="1562488804509" duration="1143000" />
+      <workItem from="1562489996887" duration="1996000" />
+      <workItem from="1562507139193" duration="1567000" />
+      <workItem from="1562509489917" duration="1778000" />
+      <workItem from="1562511632237" duration="1233000" />
+      <workItem from="1562512928603" duration="199000" />
+      <workItem from="1562513202666" duration="664000" />
+      <workItem from="1562513903551" duration="178000" />
+      <workItem from="1562514593823" duration="105000" />
+      <workItem from="1562514839822" duration="64000" />
+      <workItem from="1562927977012" duration="260000" />
+      <workItem from="1562928265259" duration="2377000" />
+      <workItem from="1562930659796" duration="829000" />
+      <workItem from="1562998861493" duration="5624000" />
+      <workItem from="1563066089926" duration="284000" />
+      <workItem from="1563069035670" duration="2126000" />
+      <workItem from="1563085335325" duration="1629000" />
+      <workItem from="1563110971974" duration="353000" />
+      <workItem from="1563153596085" duration="1200000" />
+      <workItem from="1563240075974" duration="587000" />
+      <workItem from="1563449894373" duration="95000" />
+      <workItem from="1563450457937" duration="4000" />
+      <workItem from="1564563340839" duration="127000" />
+      <workItem from="1565677096879" duration="6000" />
+      <workItem from="1565917838742" duration="21397000" />
+      <workItem from="1566105329363" duration="18535000" />
+      <workItem from="1566177769933" duration="10738000" />
+      <workItem from="1566195045204" duration="8113000" />
+      <workItem from="1566204027765" duration="4768000" />
+    </task>
+    <task id="LOCAL-00001" summary="1.yzj">
+      <created>1566207806879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566207806879</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="90910000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5623003" visible="true" weight="0.29082176" />
+      <window_info id="Structure" order="1" sideWeight="0.4375" side_tool="true" weight="0.29082176" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.4375" side_tool="true" weight="0.29082176" />
+      <window_info id="Web" order="7" sideWeight="0.43769968" side_tool="true" weight="0.29082176" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946353" weight="0.32826087" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.85675967" weight="0.37825593" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77588046" weight="0.35108694" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.689968" visible="true" weight="0.17211328" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.310032" side_tool="true" weight="0.17211328" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.49946353" weight="0.32924107" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32934782" />
+      <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2494577" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.0715048" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.329718" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.yzj" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.yzj" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/util/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/beans/response/AbstractResult.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/beans/response/IResult.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/beans/modelview/ModelView.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/beans/error/IErrCode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/beans/constant/OperType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/beans/response/PageResultBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/beans/response/ResultBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/demo/editdemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1539" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/demo/adddemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="124" column="21" lean-forward="true" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/demo/chakan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/Tem/shiyon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5238">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/editUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/lib/layui/layui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="3650" selection-start-line="1" selection-start-column="3650" selection-end-line="1" selection-end-column="3650" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/wjdc/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1431" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/401.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/common/js/ajaxExtention.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/recources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/recources/dispatch-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/mapper/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/common/js/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="309" column="30" lean-forward="true" selection-start-line="309" selection-start-column="30" selection-end-line="309" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/main.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/views/form.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/common/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/common/js/tool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/editUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jc/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1990#1991#0" expanded="true" />
+            <element signature="e#2068#2069#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/recources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/recources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/allUsers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/allUsers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/recources/mapper/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/addUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/dashang.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/home.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/views/operaterule.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/views/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1587" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/page/system/sysUser/addUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layuicms/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1527">
+          <caret line="97" column="7" lean-forward="true" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
